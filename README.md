@@ -36,6 +36,3 @@ Simulation results and RTL schematics are included in the `screenshots` folder.
 - **Xilinx ISE Design Suite 14.7**
 - **ISim Simulator**
 
----
-
-## 📂 Repository Structure
