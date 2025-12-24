@@ -1,38 +1,100 @@
-# 4-bit ALU using VHDL
+# 4-Bit ALU Using VHDL
 
-This project implements and verifies a 4-bit Arithmetic Logic Unit (ALU) using VHDL.  
-The design was developed after studying the theoretical concepts of digital logic and was then implemented and verified using industry-standard FPGA tools.
-
----
-
-## 🔹 Project Overview
-The ALU performs a set of arithmetic and logical operations based on a 4-bit opcode input.  
-It is designed as a combinational circuit and verified through both a custom VHDL testbench and interactive simulation.
+This project implements a 4-bit Arithmetic Logic Unit (ALU) using VHDL.  
+The ALU is capable of performing multiple arithmetic and logical operations based on a 4-bit opcode input.  
+The design was developed after studying digital logic theory and verified using professional FPGA simulation tools.
 
 ---
 
-## 🔧 Supported Operations
-- Data transfer (A, B)
-- NOT operation
-- AND, OR, NAND, NOR
-- XOR, XNOR
-- Addition and Subtraction
-- Increment and Decrement operations
+## Project Preview
+
+<p align="center">
+  <img src="./screenshots/alu-result.png" width="800">
+</p>
+
+> Simulation results demonstrating correct functionality of the ALU.
 
 ---
 
-## 🧪 Verification & Simulation
-The design was verified using:
-- A custom **VHDL testbench** to validate functionality
-- **Manual signal forcing** in ISim to observe ALU behavior across different opcodes
-- Waveform analysis to confirm correct outputs for all operations
+## Overview
 
-Simulation results and RTL schematics are included in the `screenshots` folder.
+The ALU is designed as a combinational circuit.  
+It supports core arithmetic and logical functions that are essential in digital processors and computing systems.
+
+Key objectives of this project:
+- Design a reliable 4-bit ALU
+- Implement in VHDL
+- Verify functionality through simulation
+- Validate outputs using waveform analysis
 
 ---
 
-## 🛠 Tools Used
-- **VHDL**
-- **Xilinx ISE Design Suite 14.7**
-- **ISim Simulator**
+## Supported Operations
 
+The ALU supports the following operations:
+
+- Data Transfer (A, B)
+- Logical Operations  
+  AND, OR, NAND, NOR  
+  XOR, XNOR
+- Bitwise NOT
+- Arithmetic Operations  
+  Addition  
+  Subtraction  
+  Increment  
+  Decrement
+
+---
+
+## Verification & Simulation
+
+The design was thoroughly tested using:
+- Custom *VHDL Testbench*
+- *Interactive input forcing* in ISim
+- *Waveform analysis* to ensure accuracy
+- Output verification for all opcode conditions
+
+All simulation outputs and RTL schematics are available in the screenshots directory.
+
+---
+
+## Tools Used
+
+- VHDL
+- Xilinx ISE Design Suite 14.7
+- ISim Simulator
+
+---
+
+## Project Structure
+
+project/
+│── README.md
+│── src/
+│ └── alu.vhd
+│── testbench/
+│ └── alu_tb.vhd
+│── screenshots/
+│ └── alu-result.png
+
+yaml
+Copy code
+
+---
+
+## How to View Simulation
+
+1. Open project in Xilinx ISE
+2. Compile design
+3. Run simulation
+4. Apply input waveforms
+5. Observe output results
+
+---
+
+## Conclusion
+
+This project successfully demonstrates the implementation of a fully functional 4-bit ALU in VHDL, validated using simulation tools.  
+It strengthens understanding of digital circuits, VHDL coding, and FPGA-based verification.
+
+---
