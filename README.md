@@ -9,7 +9,7 @@ The design was developed after studying digital logic theory and verified using 
 ## Project Preview
 
 <p align="center">
-  <img src="./screenshots/alu-result.png" width="800">
+  <img src="./screenshots/Screenshot-4.png" width="800">
 </p>
 
 > Simulation results demonstrating correct functionality of the ALU.
